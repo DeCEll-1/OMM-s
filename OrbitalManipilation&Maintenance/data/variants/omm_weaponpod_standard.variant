@@ -1,0 +1,22 @@
+{
+  "variantId": "omm_weaponpod_standard",
+  "hullId": "omm_weaponpod",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "droneslot": "chaingun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

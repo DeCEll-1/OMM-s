@@ -1,0 +1,20 @@
+{
+  "plugins":{
+    "omm_drone":"data.scripts.plugins.omm_drone",
+  },
+    	"graphics":{
+    		"fx":{
+          "FreitagCorporation_shieldsInner256":"graphics/fx/FreitagCorporation_shields256.png",
+          "FreitagCorporation_shieldsRing256":"graphics/fx/FreitagCorporation_shields256ring.png",
+          "FreitagCorporation_shieldsInner128":"graphics/fx/FreitagCorporation_shields128.png",
+          "FreitagCorporation_shieldsRing128":"graphics/fx/FreitagCorporation_shields128ring.png",
+          "FreitagCorporation_shieldsInner64":"graphics/fx/FreitagCorporation_shields64.png",
+          "FreitagCorporation_shieldsRing64":"graphics/fx/FreitagCorporation_shields64ring.png",
+        },
+"misc":{
+  "FreitagCorporation_DefensePlatformGraphic":"graphics/ships/omm_octocorallia.png",
+  "omm_algaepod_graphic":"graphics/ships/Limnopilos/omm_limnopilos_pods_graphic.png",  
+  "omm_aiming_laser":"graphics/ships/Fighters/omm_aiming_laser.png",  
+},
+        }
+}

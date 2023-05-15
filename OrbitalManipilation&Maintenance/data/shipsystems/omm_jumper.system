@@ -1,0 +1,38 @@
+{
+	"id":"omm_jumper",
+"type":"TELEPORTER",
+"aiType":"PHASE_TELEPORTER",
+	"statsScript":"data.shipsystems.scripts.omm_jumper",
+
+
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":2,
+	"flameoutOnImpactChance":0.5,
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"jitterUnderColor":[255,165,90,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+
+	"jitterColor":[255,165,90,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_temporalshell",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+}

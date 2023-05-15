@@ -1,0 +1,147 @@
+{
+  "hullName": "Octocorallia",
+  "hullId": "omm_octocorallia",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/omm_octocorallia.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 216,
+  "width": 146,
+  "center": [73, 108],
+  "collisionRadius": 161,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 144,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "axialrotation",
+    "fluxbreakers",
+    "fluxshunt",
+    "missile_reload",
+    "missleracks",
+    "supercomputer",
+    "targetingunit"
+  ],
+  "builtInWeapons": {
+    "backleftsmall": "lrpdlaser",
+    "backmedium": "pilum",
+    "backrightsmall": "lrpdlaser",
+    "frontleftmedium": "dualflak",
+    "frontleftsmall": "lightneedler",
+    "frontrightmedium": "dualflak",
+    "frontrightsmall": "lightneedler",
+    "middlesmall": "sabot",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62, -0]
+    },
+    {
+      "id": "frontrightmedium",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -45,
+      "locations": [84, -14.5]
+    },
+    {
+      "id": "frontleftmedium",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 45,
+      "locations": [84, 14.5]
+    },
+    {
+      "id": "frontrightsmall",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -73,
+      "locations": [68, -57.5]
+    },
+    {
+      "id": "frontleftsmall",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 73,
+      "locations": [68, 57.5]
+    },
+    {
+      "id": "middlesmall",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "backleftsmall",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 126,
+      "locations": [-26, 16.5]
+    },
+    {
+      "id": "backrightsmall",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -126,
+      "locations": [-26, -16.5]
+    },
+    {
+      "id": "backmedium",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-86, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    37, 63,
+    88.5, 71.5,
+    97, 63.5,
+    87.5, 56.5,
+    87, 31.5,
+    106.5, 8.5,
+    106.5, -8.5,
+    87, -31.5,
+    87.5, -56.5,
+    97, -63.5,
+    88.5, -71.5,
+    37, -63,
+    39, -56.5,
+    -68, -18,
+    -86.5, -22,
+    -94, -34,
+    -104, -28,
+    -100, -13,
+    -106.5, -7.5,
+    -106.5, 7.5,
+    -100, 13,
+    -104, 28,
+    -94, 34,
+    -86.5, 22,
+    -68, 18,
+    39, 56.5
+  ]
+}

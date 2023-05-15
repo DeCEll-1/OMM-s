@@ -1,0 +1,68 @@
+{
+  "hullName": "Weapon Pod",
+  "hullId": "omm_weaponpod",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_weaponpod.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 49,
+  "width": 46,
+  "center": [18, 20],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "omm_mainframelink"
+  ],
+  "builtInWeapons": {
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "droneslot",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [2, -4]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [20, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -9],
+      "length": 12.5,
+      "width": 9,
+      "angle": -170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-18.5, 0],
+      "length": 12.5,
+      "width": 9,
+      "angle": 170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -18, -15,
+    -18, 14,
+    14.5, 14,
+    14.5, -15
+  ]
+}

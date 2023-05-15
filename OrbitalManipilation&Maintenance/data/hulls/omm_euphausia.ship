@@ -1,0 +1,303 @@
+{
+  "hullName": "Euphausia",
+  "hullId": "omm_euphausia",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Euphausia/omm_euphausia.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 249,
+  "width": 126,
+  "center": [62.5, 124.5],
+  "collisionRadius": 178.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 138,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "solar_shielding",
+    "omm_mainframelink",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "FreitagCorporation_ShieldDrone_wing",
+    "FreitagCorporation_ShieldDrone_wing",
+    "omm_synergypod_wing",
+    "omm_synergypod_wing",
+    "omm_pddrone_wing",
+    "omm_missilepod_wing"
+  ],
+  "builtInWeapons": {
+    "AIHelp": "omm_chafflauncher",
+    "MODULAR": "omm_synergypoddeco",
+    "MODULARPD": "omm_pddronedeco",
+    "MODULARSML": "omm_missilepoddeco",
+    "WS0001": "omm_euphausia_left_hind_leg",
+    "WS0002": "omm_euphausia_right_hind_leg",
+    "frontleftblinker": "omm_redblinker",
+    "frontrightblinker": "omm_greenblinker",
+    "leftarm": "omm_euphausia_left_front_leg",
+    "leftblinker": "omm_redblinker",
+    "leftcover": "omm_euphausia_left_cover",
+    "leftengine": "omm_euphausia_left_cover_engine",
+    "rightarm": "omm_euphausia_right_front_leg",
+    "rightblinker": "omm_greenblinker",
+    "rightcover": "omm_euphausia_right_cover",
+    "rightengine": "omm_euphausia_right_cover_engine",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "rightarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0.5,
+      "locations": [96.5, -30.5]
+    },
+    {
+      "id": "leftarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0.5,
+      "locations": [96.5, 30.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 128.5,
+      "locations": [55.5, 41]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": -128.5,
+      "locations": [55.5, -41]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-30.5, -0]
+    },
+    {
+      "id": "MODULAR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [76, 174]
+    },
+    {
+      "id": "leftcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [80.5, 32.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "rightcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [80.5, -34.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "leftengine",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": 171,
+      "locations": [-49.5, 40]
+    },
+    {
+      "id": "rightengine",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": -171,
+      "locations": [-49.5, -40]
+    },
+    {
+      "id": "MODULARPD",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [149, 170]
+    },
+    {
+      "id": "synergyslot",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [92, 146],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "pdslot",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [147, 147.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "rightblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-46.5, -60.5]
+    },
+    {
+      "id": "leftblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-46.5, 60.5]
+    },
+    {
+      "id": "frontrightblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [116.5, -20.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "frontleftblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [116.5, 20.5],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "MODULARSML",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [151.5, 131]
+    },
+    {
+      "id": "smlmissileslot",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [156.5, 102]
+    },
+    {
+      "id": "AIHelp",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -0,
+      "locations": [107.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        11, -32.5,
+        12, 33
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101.5, 22],
+      "length": 81,
+      "width": 33,
+      "angle": -180,
+      "contrailSize": 33,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-101.5, -22],
+      "length": 81,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -57, 11,
+    -100.5, 8.5,
+    -100.5, 36.5,
+    -56.5, 34.5,
+    -49.5, 54.5,
+    8, 26.5,
+    26, 44,
+    35, 34,
+    52.5, 40.5,
+    18, 71.5,
+    36.5, 84.5,
+    78.5, 54,
+    89, 44,
+    86.5, 76.5,
+    121.5, 54.5,
+    123, 38,
+    108, 29.5,
+    117.5, 18.5,
+    117.5, -18.5,
+    108, -29.5,
+    123, -38,
+    121.5, -54.5,
+    86.5, -76.5,
+    89, -44,
+    78.5, -54,
+    36.5, -84.5,
+    18, -71.5,
+    52.5, -40.5,
+    35, -34,
+    26, -44,
+    8, -26.5,
+    -49.5, -54.5,
+    -56.5, -34.5,
+    -100.5, -36.5,
+    -100.5, -8.5,
+    -57, -11
+  ]
+}

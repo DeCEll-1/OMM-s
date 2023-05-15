@@ -1,0 +1,41 @@
+{
+  "hullName": "Algae Tender",
+  "hullId": "omm_nanodrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_nanodrone.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 14,
+  "width": 15,
+  "center": [7.5, 7],
+  "collisionRadius": 14,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "builtInMods": [
+      "autorepair",
+    "fluxshunt",
+    "omm_mainframelink",
+    "no_weapon_flux",
+    "do_not_back_off"
+  ],
+  "builtInWeapons": {
+    "AIHelp": "omm_chafflauncher",
+  },
+  "weaponSlots": [
+    {
+      "id": "AIHelp",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -6.5, 8,
+    -6.5, -8,
+    8.5, -0
+  ]
+}

@@ -1,0 +1,55 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":false,
+	"noHomeworld":true,
+    "spawnPatrols":true,
+    "rebelFleetSuffix":"Traitors",
+    
+    "marketSpawnWeight":1.2,
+
+
+    "alignments":{
+	    "corporate":1,
+        "technocratic":0.5,
+        "militarist":0,
+        "diplomatic":-0.5,
+        "ideological":-1,
+    },
+	
+	"morality":"amoral",
+		
+    "diplomacyTraits":["monopolist", "neutralist", "pacifist", "lowprofile"],
+
+    "startShipsSolo":[
+      ["omm_ecrevisse_Standard"]
+    ],
+    "startShipsCombatSmall":[
+      ["omm_sandhopper_Standard", "omm_crevette_Standard", "omm_sesarma_militarized"]
+    ],
+    "startShipsCombatLarge":[
+      ["omm_euphausia_Standard", "omm_ecrevisse_militarized", "omm_sandhopper_Standard"]
+    ],
+    "startShipsCarrierLarge":[
+      ["omm_euphausia_militarized", "omm_nathantia_Standard", "omm_sandhopper_Standard"]
+    ],
+
+    "startSpecialItems":[
+        [["FreitagCorporation_tech_package",""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.3},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_corrupted", "count":1},
+    ],
+}

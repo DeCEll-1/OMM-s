@@ -1,0 +1,27 @@
+{
+  "variantId": "omm_crevette_Standard",
+  "hullId": "omm_crevette",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "extendedshieldemitter",
+    "solar_shielding",
+    "insulatedengine"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Plasma": "plasma",
+        "smlhybridslot": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

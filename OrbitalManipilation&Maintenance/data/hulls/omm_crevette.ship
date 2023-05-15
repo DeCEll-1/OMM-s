@@ -1,0 +1,202 @@
+{
+  "hullName": "Crevette",
+  "hullId": "omm_crevette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Crevette/omm_crevette.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 96,
+  "width": 76,
+  "center": [38, 48],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "repair_gantry",
+    "omm_mainframelink"
+  ],
+  "builtInWings": [
+    "FreitagCorporation_ShieldDrone_wing",
+    "omm_smallpod_wing"
+  ],
+  "builtInWeapons": {
+    "MODULARPD": "omm_smallpoddeco",
+    "Plasma": "plasma",
+    "leftblinker": "omm_redblinker",
+    "leftcover": "omm_crevette_cover_left",
+    "leftleg1": "omm_crevette_left_leg",
+    "leftleg2": "omm_crevette_left_leg",
+    "redblinker": "omm_greenblinker",
+    "rightcover": "omm_crevette_cover_right",
+    "rightleg1": "omm_crevette_right_leg",
+    "rightleg2": "omm_crevette_right_leg",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "rightleg2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 9,
+      "angle": -42.5,
+      "locations": [-17, -19.5]
+    },
+    {
+      "id": "leftleg2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 9,
+      "angle": 42.5,
+      "locations": [-17, 19.5]
+    },
+    {
+      "id": "rightleg1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": -1,
+      "locations": [8, -25]
+    },
+    {
+      "id": "leftleg1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": 1,
+      "locations": [8, 25]
+    },
+    {
+      "id": "Plasma",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 35,
+      "angle": 0,
+      "locations": [25.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": -0,
+      "locations": [25.5, 0]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-32, -0]
+    },
+    {
+      "id": "leftcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, 27],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "rightcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-5.5, -27],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "MODULARPD",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 112.5]
+    },
+    {
+      "id": "smlhybridslot",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [6, 78.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "leftblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, 31.5],
+      "renderOrderMod": 6
+    },
+    {
+      "id": "redblinker",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, -31.5],
+      "renderOrderMod": 6
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -3.5, 22.5,
+        -4, -23
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-46, 7],
+      "length": 32,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-46, -7],
+      "length": 32,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -46.5, 7.5,
+    -39.5, 17.5,
+    -11.5, 21.5,
+    0, 36,
+    38, 10.5,
+    38, -10.5,
+    0, -36,
+    -11.5, -21.5,
+    -39.5, -17.5,
+    -46.5, -7.5
+  ]
+}

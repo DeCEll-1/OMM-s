@@ -1,0 +1,69 @@
+{
+  "hullName": "Synergy Pod",
+  "hullId": "omm_synergypod",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_medenergy_drone.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 44,
+  "width": 44,
+  "center": [22, 20],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "missile_reload",
+    "omm_mainframelink"
+  ],
+  "builtInWeapons": {
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "synergyslot",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [15.5, -0]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -5],
+      "length": 12.5,
+      "width": 9,
+      "angle": -170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-18.5, 4],
+      "length": 12.5,
+      "width": 9,
+      "angle": 170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -15, -14,
+    -15, 15,
+    17.5, 15,
+    17.5, -14
+  ]
+}

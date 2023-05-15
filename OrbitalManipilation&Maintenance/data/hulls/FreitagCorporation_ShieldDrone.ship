@@ -1,0 +1,100 @@
+{
+  "hullName": "Shield Drone",
+  "hullId": "FreitagCorporation_ShieldDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_shielddrone.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 38,
+  "width": 35,
+  "center": [18, 20],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 66,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "omm_mainframelink",
+	"omm_wing_range_increase",
+  ],
+  "builtInWeapons": {
+    "AIHelp":"omm_chafflauncher",
+    "WS0002": "FreitagCorporation_ShieldEffect_wpn",
+    "leftarm": "omm_droneleftarm",
+    "rightarm": "omm_dronerightarm"
+  },
+  "weaponSlots": [
+    {
+      "id": "AIHelp",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 62,
+      "angle": 0,
+      "locations": [5, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15, 1.5]
+    },
+    {
+      "id": "rightarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 34,
+      "angle": 17.5,
+      "locations": [5, -16.5]
+    },
+    {
+      "id": "leftarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 32,
+      "angle": -14,
+      "locations": [4, 15.5]
+    },
+    {
+      "id": "cover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 0.5],
+      "renderOrderMod": 1
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -2.5],
+      "length": 11,
+      "width": 6,
+      "angle": -172,
+      "contrailSize": 6,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-18.5, 5],
+      "length": 11,
+      "width": 6,
+      "angle": 171.5,
+      "contrailSize": 6,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -18, 14.5,
+    13.5, 16.5,
+    13.5, -15,
+    -18, -13.5
+  ]
+}

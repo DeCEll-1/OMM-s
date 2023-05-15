@@ -1,0 +1,280 @@
+{
+	id:"freitag_corporation",
+	"color":[255,255,255,255],
+	"baseUIColor":[255,255,255,255],
+    "secondaryUIColor":[255,143,0,255],
+	"displayName":"Freitag Corporation",
+	"displayNameWithArticle":"the Freitag Corporation",
+	"logo":"graphics/factions/neutral_traders.png",
+	"crest":"graphics/factions/crest_neutral_traders.png",
+	"shipNamePrefix":"FCS",
+	"shipNameSources":{
+
+		"MERCANTILE":2,
+		"SPACE":2,
+		"NORSE":3,
+		"BEASTS":2,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"FreitagCorporation_pulse_bp":1.5,
+		},
+		"hulls":{
+			"gremlin":0, #nope nope
+			"buffalo2":0, #trashbison can fuck right off
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["FreitagCorporation_pulse_bp"],
+		"hulls":[
+			"atlas",
+			"phaeton",
+			"dram",
+		],
+	},
+	"knownShips":{
+		"tags":["FreitagCorporation_pulse_bp"],
+		"hulls":[
+			"atlas",
+			"dram",
+            "omm_crevette",
+            "omm_ecrevisse",
+            "omm_sandhopper",
+            "omm_euphausia",
+            "omm_nathantia",
+            "omm_sesarma",
+            "omm_limnopilos",
+			"phaeton",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+            "omm_crevette",
+            "omm_ecrevisse",
+            "omm_sandhopper",
+            "omm_euphausia",
+            "omm_nathantia",
+            "omm_sesarma",
+            "omm_limnopilos",
+		],
+	},
+	"knownFighters":{
+		"tags":["FreitagCorporation_pulse_bp"],
+		"fighters":[
+
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent"],
+		"weapons":[
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+
+		],
+	},
+	"knownHullMods":{
+		"tags":["FreitagCorporation_pulse_bp"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"escort_package",
+			"assault_package",
+			"converted_fighterbay",
+		],
+	},
+	"factionDoctrine":{
+		"warships":2,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":3,
+		
+		"aggression":1,
+		
+		"combatFreighterProbability":0.6,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.6,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+
+	],
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+	"internalComms":"freitag_internal",
+	#"tariffFraction":0.4,
+	#"tollFraction":0.1,
+	#"fineFraction":0.25,
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_corporate01.png",
+			"graphics/portraits/portrait_corporate03.png",
+			"graphics/portraits/portrait_corporate05.png",
+			"graphics/portraits/portrait_corporate06.png",
+			"graphics/portraits/portrait_corporate08.png",
+			"graphics/portraits/portrait_corporate10.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait35.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_corporate02.png",
+			"graphics/portraits/portrait_corporate04.png",
+			"graphics/portraits/portrait_corporate07.png",
+			"graphics/portraits/portrait_corporate09.png",
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/omm_portrait_001.png",
+			"graphics/portraits/omm_portrait_002.png",
+			"graphics/portraits/omm_portrait_003.png",
+			"graphics/portraits/omm_portrait_004.png",
+			"graphics/portraits/omm_portrait_005.png",
+			"graphics/portraits/omm_portrait_006.png",
+			"graphics/portraits/omm_portrait_007.png",
+			"graphics/portraits/omm_portrait_008.png",
+			"graphics/portraits/omm_portrait_009.png",
+			"graphics/portraits/omm_portrait_010.png",
+			"graphics/portraits/omm_portrait_011.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Secretary General"},
+			"spaceCommander":{"name":"Hostile Acquisition Manager"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Secretary General"},
+
+		},
+	},
+	"custom":{
+	    "spawnsAsIndependent":true,
+		"decentralized":true,
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":true,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},	
+		"fleetTypeNames":{
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Liner Convoy",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Patrol",
+		"patrolLarge":"Detachment",
+		
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+	
+},

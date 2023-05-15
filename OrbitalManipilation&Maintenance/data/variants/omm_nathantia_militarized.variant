@@ -1,0 +1,30 @@
+{
+  "variantId": "omm_nathantia_militarized",
+  "hullId": "omm_nathantia",
+  "displayName": "militarized",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 19,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "assault_package",
+    "militarized_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ballisticslot": "heavyac",
+        "compositeslot": "salamanderpod",
+        "droneslot": "heavyblaster",
+        "largeslot": "tachyonlance",
+        "pdslot": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

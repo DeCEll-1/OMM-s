@@ -1,0 +1,24 @@
+{
+	"FreitagCorporation_Engine":{
+		"engineColor":[255,166,0,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.1f,
+		"contrailColor":[255,87,51,25],
+		"contrailCampaignColor":[249,248,25,25],
+		"type":"GLOW", # GLOW or SMOKE
+
+				"omegaMode":true,
+		#		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		#		"contrailDuration":1.5,
+		#		"contrailWidthMult":0.67,
+		#		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+	#			"contrailMinSeg":5, # min segment length, in pixels
+	#			"contrailMaxSpeedMult":1f,
+		#		"contrailAngularVelocityMult":0f,
+		#		"contrailColor":[50,50,255,75],
+	},
+}

@@ -1,0 +1,207 @@
+{
+  "hullName": "Limnopilos",
+  "hullId": "omm_limnopilos",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Limnopilos/omm_limnopilos.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 91,
+  "width": 91,
+  "center": [45.5, 45.5],
+  "collisionRadius": 81,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 92.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "omm_mainframelink",
+    "omm_wing_range_increase"
+  ],
+  "builtInWings": [
+    "omm_pddrone_wing"
+  ],
+  "builtInWeapons": {
+    "MODULARPD": "omm_pddronedeco",
+    "leftarm": "omm_limnopilos_left_leg",
+    "leftcover": "omm_limnopilos_left_cover",
+    "leftjaw": "omm_limnopilos_left_jaw",
+    "leftleg": "omm_limnopilos_left_leg",
+    "rightarm": "omm_limnopilos_right_leg",
+    "rightcover": "omm_limnopilos_right_cover",
+    "rightjaw": "omm_limnopilos_right_jaw",
+    "rightleg": "omm_limnopilos_right_leg",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "rightjaw",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -14,
+      "locations": [33, -25.5]
+    },
+    {
+      "id": "leftjaw",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 14,
+      "locations": [33, 25.5]
+    },
+    {
+      "id": "leftarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -6.5,
+      "locations": [13, 34]
+    },
+    {
+      "id": "rightarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 6.5,
+      "locations": [13, -34]
+    },
+    {
+      "id": "leftleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 15.5,
+      "locations": [-6.5, 30]
+    },
+    {
+      "id": "rightleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": -15.5,
+      "locations": [-6.5, -30]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "MODULARPD",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-23, 109.5]
+    },
+    {
+      "id": "pdslot",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-25, 87]
+    },
+    {
+      "id": "rightcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, -30.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "leftcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [15.5, 30.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "algaepods",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-11, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-14.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43.5, -12.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-43.5, 12.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-41.5, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-41.5, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -44, 12.5,
+    -40.5, 26,
+    -24.5, 41,
+    -13.5, 31.5,
+    -1, 42.5,
+    15.5, 44,
+    23, 37,
+    72.5, 36,
+    72.5, -36,
+    23, -37,
+    15.5, -44,
+    -1, -42.5,
+    -13.5, -31.5,
+    -24.5, -41,
+    -40.5, -26,
+    -44, -12.5
+  ]
+}

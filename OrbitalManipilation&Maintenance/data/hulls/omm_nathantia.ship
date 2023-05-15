@@ -1,0 +1,323 @@
+{
+  "hullName": "Nathantia",
+  "hullId": "omm_nathantia",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Nathantia/omm_Nathantia.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 389,
+  "width": 520,
+  "center": [260, 194.5],
+  "collisionRadius": 237,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 203,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "omm_mainframelink",
+    "repair_gantry"
+  ],
+  "builtInWings": [
+    "FreitagCorporation_ShieldDrone_wing",
+    "FreitagCorporation_ShieldDrone_wing",
+    "omm_weaponpod_wing",
+    "omm_ballisticpod_wing",
+    "omm_ballisticpod_wing",
+    "omm_compositepod_wing",
+    "omm_largepod_wing",
+    "omm_pddrone_wing"
+  ],
+  "builtInWeapons": {
+    "AIHelp": "omm_chafflauncher",
+    "COMPMODULAR": "omm_compositepoddeco",
+    "LRGMODULAR": "omm_largepoddeco",
+    "MODULAR": "omm_weaponpoddeco",
+    "MODULARPD": "omm_pddronedeco",
+    "WS0001": "omm_ballisticpoddeco",
+    "frontcover": "omm_nathantia_frontcover",
+    "leftarm": "omm_nathantia_left_arm",
+    "leftcover": "omm_nathantia_left_cover",
+    "leftleg": "omm_nathantia_left_leg",
+    "rightarm": "omm_nathantia_right_arm",
+    "rightcover": "omm_nathantia_right_cover",
+    "rightleg": "omm_nathantia_right_leg",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "rightarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -1,
+      "locations": [107.5, -39]
+    },
+    {
+      "id": "leftarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 1,
+      "locations": [107.5, 39]
+    },
+    {
+      "id": "leftleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": -33.5,
+      "locations": [11, 36]
+    },
+    {
+      "id": "rightleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": 33.5,
+      "locations": [11, -36]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        87, -50,
+        71, -42.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        86.5, 50,
+        70.5, 42
+      ]
+    },
+    {
+      "id": "MODULAR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [183, 160]
+    },
+    {
+      "id": "MODULARPD",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [181, 227.5]
+    },
+    {
+      "id": "droneslot",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [180, 139],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "pdslot",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [179, 205],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [63.5, -0]
+    },
+    {
+      "id": "rightcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-17.5, -42.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "frontcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [134.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "leftcover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-17.5, 42.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "LRGMODULAR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [66.5, 109.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [123.5, 232]
+    },
+    {
+      "id": "ballisticslot",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [125, 205.5]
+    },
+    {
+      "id": "largeslot",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": -0,
+      "locations": [95.5, 137]
+    },
+    {
+      "id": "COMPMODULAR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [58.5, 233.5]
+    },
+    {
+      "id": "compositeslot",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [62, 205.5]
+    },
+    {
+      "id": "AIHelp",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": -0,
+      "locations": [161.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-151.5, -20],
+      "length": 106,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-151.5, 20],
+      "length": 106,
+      "width": 35,
+      "angle": -180,
+      "contrailSize": 35,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -44, 107.5,
+    -54.5, 120,
+    12, 120,
+    50.5, 61.5,
+    73, 58.5,
+    79, 66.5,
+    76.5, 71,
+    81, 74.5,
+    118.5, 39.5,
+    129, 36,
+    141.5, 37.5,
+    148.5, 30.5,
+    173.5, 19.5,
+    180, 26.5,
+    184.5, 22.5,
+    177.5, 13.5,
+    181.5, 10.5,
+    181.5, -10.5,
+    177.5, -13.5,
+    184.5, -22.5,
+    180, -26.5,
+    173.5, -19.5,
+    148.5, -30.5,
+    141.5, -37.5,
+    129, -36,
+    118.5, -39.5,
+    81, -74.5,
+    76.5, -71,
+    79, -66.5,
+    73, -58.5,
+    50.5, -61.5,
+    12, -120,
+    -54.5, -120,
+    -44, -107.5,
+    -46.5, -101.5,
+    -34, -95,
+    -15, -41.5,
+    -22.5, -25.5,
+    -54.5, -32.5,
+    -54.5, -40.5,
+    -48, -46.5,
+    -62.5, -46.5,
+    -73.5, -33.5,
+    -142.5, -36,
+    -151.5, -33,
+    -151.5, 33,
+    -142.5, 36,
+    -73.5, 33.5,
+    -62.5, 46.5,
+    -48, 46.5,
+    -54.5, 40.5,
+    -54.5, 32.5,
+    -22.5, 25.5,
+    -15, 41.5,
+    -34, 95,
+    -46.5, 101.5
+  ]
+}

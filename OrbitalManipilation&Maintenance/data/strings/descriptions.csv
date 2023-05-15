@@ -1,0 +1,134 @@
+id,type,text1,text2,text3,notes
+omm_euphausia,SHIP,"This specialized fast cruiser-class is invaluable for many orbital operations and sometimes even sees usage in battles if flux inefficient or overdriven ships are fielded.
+
+Space elevators are precious and incredibly advantageous installations that take enormous effort and recources to build. Knowing this, it is no surprise that any power in possession of such a technological wonder does not want to put it in jeapordy and thus much care is taken to maintain and repair any elevator.
+Purpose-built for this particular job, the Euphausia-class is an extremely useful piece of machinery capable of using its long manipulators and modular drones in concert to achieve astonishing results in a short timeframe.
+
+A bit later in their life most Euphausia-class ships received a refit due to rising popularity of orbital operations in hazardous star coronas. 
+The refit was extensive, consisting of a fluid ceramic layer underneath its main armor plating and a pair of shield drones that already found success in the Crevette-class frigate, making it much more viable to operate in the hostile environment present in close proximity to a star.
+
+But there is another part of this refit that is worth calling attention to: the Euphausia-class's front manipulators were upgraded with miniature phase coils and it received a second pair of manipulators further in the back of the ship equipped with the same coils. 
+Not strong enough to phase cloak the entire ship, they were meant for an entirely different purpose.
+The cruiser uses it's manipulators to spin webs like a spider entirely contained in p-space with the aim of launching one of those phase threads at orbital installations or even ships. As soon as the connection is made flux can flow freely from the target to the Euphausia-class.",,,
+omm_crevette,SHIP,"The Crevette-class is essentialy a mobile welding tool the size of a frigate, able to fuse ship and station parts in order to repair them or to combine salvage and debris into large chunks for later processing.
+Those chunks can then be moved much more easily by tugs or other ships, simplifying salvaging operations immensely. 
+In order to do so, the Crevette-class collects hydrogen plasma with the help of the ships's EM field manipulation emitters located in its legs.
+Not entirely by coincidence can these be used to hurl balls of superheated plasma at enemies, providing the ship with a means of defense similar to a regular plasma cannon.
+Because of its intended field of application the Crevette-class needs to be highly mobile in order to navigate dense debris fields and is therefore equipped with plasma jets to facilitate the necessary levels of evasive maneuverability. 
+While welding the ship has to remain stationary for extended periods of time and is thus unable to evade incoming debris or ship and station parts, requiring the Captain to be mindful of their position and situation when engaging in such operations.
+The Freitag Corporation thought of this problem while designing the ship and came to a rather simple solution: a small accompanying drone with a comparatively efficient shield able to deflect such debris, thus alleviating the issue and minimizing the risk posed.
+In combat situations this drone can be used effectively to add additional protection to the Crevette-class or other more vulnerable ships.
+Simple and efficient solutions are the corporation's mainstay and the Crevette-class is a perfect example of that mindset.",,,
+omm_sandhopper,SHIP,"Debris fields formed in the aftermath of battles or accidents are the lifeblood of countless salvage fleets in the sector of which some employ the Freitag Corporation to assist in harvesting precious technology, 
+metals and in rare cases even the odd AI core. Seldom are these drifting graveyards safe from other salvagers or pirates.
+
+This is where the Sand Hopper-class comes into play, one of the few military-grade ships of the Corporation. With a clear defense mission this particular class is essentially a weapon-platforms carrier, 
+allowing it to set up a defensive perimeter with the platforms carried.
+This enables it to defend valuable salvage long enough to be exploited by salvage rigs or similar ships.
+Not even it's main armament is located on the Sand Hopper-class itself but instead carried by modular weapon drones. After deployment of the defense platform the ship acts as a fast, light destroyer able to weave in and out of combat range. 
+Since the Sand Hopper-class is armored rather lightly the Freitag Corporation equipped it with a special form of damper field from which the class derives its name.
+ 
+While active the ship makes a huge leap forward and it can use that to catapult itself over other ships.
+Unfortunately this system requires quite a bit of time to cycle its capacitors until it can be used again. More often then not the system is used in emergency situations to quickly disengage from battle and leave all defenses behind as disposable rearguard.
+ 
+For most of the Sand Hopper-class's employers salvage is all that counts and so this light destroyer is the embodyment of the philosophy ""Live to fight another day"".",,,
+omm_sesarma,SHIP,"The Sesarma-class is a versatile courier craft, intended to be one of the more affordable ship designs in their cataloque, contrary to most other vessels produced by the Freitag Corporation.
+Still more expensive than comparable ships with a similar role, it boasts a modular clamp system to make up for the increased price with a system designed to more efficiently facilitate cargo loading and unloading.
+While other cargo holds can only be filled tediously as the ship is stuck in a loading bay, for the Sasarma-class modular containers can be pre-loaded even before it has arrived on site. It only needs to pick up the container, fuel tank or passenger cabin it is supposed to transport and it can be on its way again. This allows for rapid transport of goods, and as an aside also permits the Freitag Corporation to sell their specialized containers to increase efficiency even further.
+
+Clever design choices like those presented by the Sesarma-class ensure the Freitag Corporation stays ahead of its competition.   ",,,
+omm_nathantia,SHIP,"""Discover new worlds no matter how dangerous they might be with the Nathantia - the pinnacle of space exploration vessels!""
+-Advertising slogan expressed by a pleasant female voice over a holo-scene depicting an attractive man grasping a joystick while being caressed by a well-known super model.
+
+Not only the flagship of the Freitag Corporations spaceship product line but also meant as such for any exploration fleet, the Nathantia-class sports an experimental but sophisticated anti-graviton reactor capable of reducing the mass of a targeted craft. For one, this makes capable of atmospheric flight by reducing its own mass which is unheard of for a ship of this size, on the other hand by compressing a focused anti-graviton wave almost to zero-point value the Nathantia-Class is able to put a ship under the effects of time compression.
+The main application of this anti-graviton wave is to fly ahead of other ships in its fleet while traveling through hyperspace to clear a way through anomalies or nebula.
+In hyperspace the wave has the effect of dispersing these potentially dangerous phenomena and the effect the ship has can be pictured like a pair of scissors cutting through stretched cloth.
+
+As an aside, it should be noted that the model acting in an advertisement for this ship class, suffered a fatal accident during a display of the Nathantia-class' reactor.
+An engineer confused a mathematical operator(Nott sure what this means?) resulting in the demonstration vessel the model was on being compressed not in time but instead being compressed in space from the huge amount of gravitational force it was put under.
+All that was left after the accident was a smooth ball of metal about 10 meters in size but with the mass of a cruise liner.",,,
+omm_limnopilos,SHIP,"The Limnopilos-class is a successful attempt at miniaturization following the design principles of its predecessor, the Macrocheira-class. 
+Attached to the back of the ship in a clustered configuration are the same algae pods that can be found on its larger cousin providing a constant flow of fuel and supplies. Being specialized for algae growing makes the Limnopilos-class very vulnerable, being only equipped with a pair of point defense drones.
+Due to the smaller size it has a reduced logistics footprint making it an attractive option for smaller fleets in need of extended time away from industrial centers that provide them with necessary supplies and fuel.
+
+Strangely enough it shares the same increase in missing crew reports with the Macrocheira-class lending it the same reputation of being haunted.",,,
+omm_ecrevisse,SHIP,"The Ecrevisse-class is the work-horse for orbital operations of the Freitag Corporation, able to use it's drive and shield overcharge to push enormous amounts of mass, usually in the form of large pieces of salvage or orbital platforms, to their desired destination and is therefore often used in concert with the Crevette-class welding frigate. 
+
+It can also be used like a conventional tug either with a wire as normal or by pushing ships with drive systems allowing enough space for the Ecrevisse-class so it would not be damaged by thruster emissions. 
+Front mounted clamps on the ship are standardized to be used as missile hardpoints if the ship is on demolition duty or needed for asteroid excavation jobs making the Ecrevisse-class a versatile vessel 
+that can be quite capable in combat situations if it is commanded by a capable captain and crew.",,,
+omm_macrocheira,SHIP,"Macrocheira-class is a mobile semi-automated zero-g algae farm, the molecular forges of which can be adjusted to produce a variety of plastics, solvents or nutritional supplements.
+The automatic production of fuel and supplies on a mobile chassis means it can be a valuable asset for long journeys or exploration missions. 
+
+The algae are stored in spherical pods, each being its own little ecosystem of bacteria, algae, small crustaceans and nanites and they can be specialised to grow certain types of genetically modified algae.
+The pods themselves are quite valuable since it takes about six months for the ecosystem to stabilize but then it can support the life in it almost indefinitely thanks to the kappa level AI controlled nanites tending it.
+How the Freitag Corporation was able to achieve this level of sophisticated bio-engineering and zero-g aquaculture puzzles even the most distinguished experts on those fields of research who deem it
+impossible to keep the ecosystems stable without regularly adding biological material.
+
+In combat the algae pods can be deployed clouding an area with nanobots and algae particles to improve weapon and engine repair rates as well as fighter production but these ships are only deployed in the 
+most desperate of situations, though there are examples of admirals using mobile algae farms as a distraction.
+
+On a side node, fleets with Macrocheira-class ships seem to have more crew casualties even if no combat activities were conducted and higher than average missing person reports are filed. 
+Among superstitious crew this is proof for these ships being haunted.",,,
+omm_pddrone,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a small energy mount and is equipped with an integrated point defense AI.",,,
+omm_weaponpod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a medium energy mount.",,,
+omm_synergypod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a medium synergy hardpoint.",,,
+omm_missilepod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a small missile hardpoint.",,,
+omm_compositepod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a medium composite hardpoint.",,,
+omm_smallpod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a small hybrid hardpoint.",,,
+omm_ballisticpod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a medium ballistic mount.",,,
+omm_largepod,SHIP,"A staple of Freitag Corporation ships, modular drones can be euipped with many tools using the standardized mount system widely used throughout the Persean Sector. Albeit intended as
+precision tool carriers said mount system makes the drones able to accept a wide choice of weapons. 
+With the restrictions on AI useage put in place by the Hegemony after the second AI war corporation ships rely on wireless consciousness shifting technology allowing gunners real-time direct control over the drones. 
+Compared to drones built by other manufacturers this system gives the user unparalleled precision and control over each action performed by the drone, be it welding armour plates, manipulating objects in space or in some cases using weaponry. 
+
+This particular drone model has a large hybrid hardpoint.",,,
+FreitagCorporation_ShieldDrone,SHIP,"Shield drones are deployed by several Freitag Corporation vessels to protect the mothership from debris, asteroid fragments or enemy ordnance. 
+The experience would be too traumatizing for humans to be controlled remotely via the companies trademark wireless consciousness shift and thus the drones have to rely on a crude theta level AI. This is the highest grade AI level permitted on civilian grade ships after the events of the second AI war and unfortunately drone performance is noticably limited by that.",,,
+,,,,,
+omm_octocorallia,SHIP,Automated Defense platform deployed by the Sandhopper-class. Is automatically deployed if within 300 SU of a capture point or 30 seconds after combat has started.,,,
+,,,,,
+FreitagCorporation_Manipulator,SHIP_SYSTEM,Activate to gain a sicnificant speed boost and shield damage resistance. If the ship collides with an enemy it pushes it away. Heavier ships are pushed less far. Does not deal damage apart from possible collisions that might occur.,,,
+FreitagCorporation_FluxEater,SHIP_SYSTEM,"Channels flux over 3 seconds from allied ships near the cursor to the Euphausia up to 1500 SU away. Influenced by flux dissipation rate, can sometimes affect more than 1 ship if they are close to one another.",,,
+FreitagCorporation_TemporalShellBuff,SHIP_SYSTEM,Compresses time for target allied ship near the cursor by a factor of 3 for 3 seconds.,,,
+,,,,,
+freitag_hq,CUSTOM,"A dead titan lies ahead amidst the Valkyries. Buzzing swarms of flies surround it slowly eating away the titans flesh, hollowing out its bones, sucking away the blood still left in its vanes. The corpse eaters home hovers right next to the decaying husk of the once powerful giant, each tiny piece of it's body busily taken to the hive. A rotting cadaver consumed by greed.
+
+This is Anthozoa Station, HQ of the Freitag corporation built in orbit of the wrecked ring once capable of connecting the Persean Sector to any other part of the Domains vast realm, now source and center of the corporations influence and economic power. Here the specialized technology is designed and built with the materials the destroyed gate provides. It is mostly populated by engineers, scientists and contract negotiators who are busy furthering the interests of the corporation.
+
+In long forgotten times, when humanity was still very young, there existed a word for men and women ruthless enough to tear apart corpses for further use: Necromancer.",,,

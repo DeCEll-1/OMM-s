@@ -1,0 +1,11 @@
+{
+	"id":"FreitagCorporation_FluxEater",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.FreitagCorporation_FluxEaterAI",
+	"statsScript":"data.shipsystems.scripts.FreitagCorporation_FluxEater",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

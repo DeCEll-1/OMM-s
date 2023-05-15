@@ -1,0 +1,25 @@
+{
+  "id":"OMM",
+	"name":"Orbital Manipulation and Maintenance",
+	"author":"Tecrys",
+	"version":"0.15A",
+	"description":"Ships and Game Mechanics for the Civilian Sector as well as luxury brand manufacturer Freitag Corporation. Credits: Snrasha, briansd9, tomatopaste, Shoi, Sutopia, Finn",
+	"gameVersion":"0.96a",
+  "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+        },
+        {
+            "id": "shaderLib",
+            "name": "ZZ GraphicsLib",
+        },
+    		{
+    			"id": "MagicLib",
+    			"name": "MagicLib",
+    			#"version": "0.32rc2" # If a specific version is NOT required, comment out this line
+    		}
+    ],
+	"jars":["jar/FreitagCorporation.jar"],
+	"modPlugin":"data.scripts.FreitagCorporation_ModPlugin",
+}

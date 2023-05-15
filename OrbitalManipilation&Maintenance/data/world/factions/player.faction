@@ -1,0 +1,22 @@
+{
+	"id":"player",
+	
+	"portraits":{
+		"standard_male":[
+		
+		],
+		"standard_female":[
+			"graphics/portraits/omm_portrait_001.png",
+			"graphics/portraits/omm_portrait_002.png",
+			"graphics/portraits/omm_portrait_003.png",
+			"graphics/portraits/omm_portrait_004.png",
+			"graphics/portraits/omm_portrait_005.png",
+			"graphics/portraits/omm_portrait_006.png",
+			"graphics/portraits/omm_portrait_007.png",
+			"graphics/portraits/omm_portrait_008.png",
+			"graphics/portraits/omm_portrait_009.png",
+			"graphics/portraits/omm_portrait_010.png",
+			"graphics/portraits/omm_portrait_011.png",
+		],
+	},
+}

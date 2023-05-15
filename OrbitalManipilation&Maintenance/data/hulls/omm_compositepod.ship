@@ -1,0 +1,82 @@
+{
+  "hullName": "Composite Pod",
+  "hullId": "omm_compositepod",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_hopperdrone.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 43,
+  "width": 56,
+  "center": [28, 20.5],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "missile_reload",
+    "omm_mainframelink"
+  ],
+  "builtInWeapons": {
+    "cover": "omm_pddronecover",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "compositeslot",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [0.5, -0]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, -0]
+    },
+    {
+      "id": "cover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-10, -0],
+      "renderOrderMod": 4
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, -6.5],
+      "length": 16.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-20, 6.5],
+      "length": 16.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    1.5, -25.5,
+    -19.5, -15,
+    -19.5, 15,
+    1.5, 25.5,
+    18, 19.5,
+    18, -19.5
+  ]
+}

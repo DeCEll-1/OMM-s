@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FreitagCorporation:jar">
+    <output-path>$PROJECT_DIR$/jar</output-path>
+    <root id="archive" name="FreitagCorporation-master.jar">
+      <element id="module-output" name="FreitagCorporation-master" />
+    </root>
+  </artifact>
+</component>

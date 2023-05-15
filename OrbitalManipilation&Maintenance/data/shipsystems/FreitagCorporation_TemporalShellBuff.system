@@ -1,0 +1,11 @@
+{
+	"id":"FreitagCorporation_TemporalShellBuff",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.FreitagCorporation_TemporalShellBuffAI",
+	"statsScript":"data.shipsystems.scripts.FreitagCorporation_TemporalShellBuff",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

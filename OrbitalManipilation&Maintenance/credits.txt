@@ -1,0 +1,13 @@
+Template: Snrasha
+
+Original draw: Till Freitag https://www.artstation.com/imrahil
+
+Coding: briansd9, tomatopaste
+
+Original drone weapon swap code from Arma Armatura by Shoi
+
+Fighters transfer flux to mothership code from Modern Carriers by Sutopia
+
+Proofreading Finn
+
+Everyone on the unoffial Starsector Discord for their invaluable advice

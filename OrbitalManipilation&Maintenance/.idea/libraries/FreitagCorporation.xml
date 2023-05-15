@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FreitagCorporation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/FreitagCorporation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

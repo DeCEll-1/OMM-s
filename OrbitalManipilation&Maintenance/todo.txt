@@ -1,0 +1,27 @@
+What I got so far:
+-ships are done for the most part, except for the 2 algae ships. Improving sprites steadily over time
+- systems (or their frameweork at least) are done except for algae ships, sand hopper and Sesarma (modular transport, probably fine with some maneuvering thrusters or active flares)
+- half of the ships have desciptions. making those bit by bit
+- framework for deployable platforms is done in form of Sand Hopper Def Platform script and the Octocorallia weapon platform, as well as algae pod and smlalgae script
+~ (get weapon swap and aiming/shooting for drones to work consistantly) known issue: no command stransfer possible
+- Done! So far only pd Drone and universal medium mount drone implemented, need more options. That one is easy to solve and I am working on it right now
+- Done! some general balancing, mount/drone layout and proper variants. That's something I can handle
+~ (subsystem on all ships with drones to better utilise them) temporary fix for AI/drone behaviour
+
+
+Things that need doing:
+
+- Sand Hopper needs system: combination of damper field and burn drive with fighter collision to "jump over" other ships
+- Proper visuals for Nathantias system which provides temporal shell for allies. System works fine imo, just needs better indicater where its coming from and who is buffed
+- faction hullmod that provides lesser effect of solar shielding, salvage gantry and drone OP cost reduction. 
+         Also orbital colony parts build speed increase on campaign level would be nice
+
+- Sesarma needs a container sprite and code that attaches/changes container depending on logistics hullmod. Sprite isn't the problem, just the code
+- both algae ships are made to deploy the algae, providing a "buff aura" improving weapon/engine repair and fighter replacement with some green particles (algae & nanobots) flying around to mark area
+- campaign integration in form of extra markets attached to normal markets (see Arma Armatura as an example) 
+  on indipendent stations in Anthozoa Station, Nova Maxios, Eldfell and Ilm, Anthozoa being their company HQ orbiting a portal being salvaged.
+
+- at some point weapons but that is not important for first release
+- at some point "Flip" System for experimental ship but priority is very low for that
+- Oh, and I wanted the 2 algae ships to provide supplies and fuel depending on CR. Consumes crew to do this. Doesn't need to be a huge amount of supplies/fuel, 
+  just enough for the ship itself and maybe 2 destroyers. the capital sized one could provide a bit more but I'm trying to keep it reasonable to not be unbalanced

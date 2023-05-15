@@ -1,0 +1,52 @@
+{
+
+	"salvage_gate":{
+		"defaultName":"The Dead Titan", # used if name=null in addCustomEntity()
+		"nameInText":"destroyed gate",
+		"aOrAn":"a",
+		"defaultRadius":190, # used if radius<0 in addCustomEntity()
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/gate0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/tiltedgate.png",
+		"spriteWidth":170,
+		"spriteHeight":170,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":true,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"nameColor":[70,200,255,255],
+		"nameShadowColor":[0,0,0,255],
+		#"renderCircleIndicator":false,
+		"renderCircleIndicator":false,
+		"renderCircleIndicatorSelectionFlash":true,
+		#"customDescriptionId":"salvage_gate",
+		"tags":["neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"freitag_hq":{
+		"defaultName":"Anthozoa Station",
+		"defaultRadius":30,
+		"customDescriptionId":"freitag_hq",
+		"interactionImage":"graphics/illustrations/urban02.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/FreitagHQ.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"tags":["station"],
+		"layers":[STATIONS],
+	},
+}

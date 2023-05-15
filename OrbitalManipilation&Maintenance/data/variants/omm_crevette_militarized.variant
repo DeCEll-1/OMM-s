@@ -1,0 +1,26 @@
+{
+  "variantId": "omm_crevette_militarized",
+  "hullId": "omm_crevette",
+  "displayName": "militarized",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "assault_package"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "Plasma": "plasma",
+        "smlhybridslot": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

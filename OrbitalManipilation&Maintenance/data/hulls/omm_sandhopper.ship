@@ -1,0 +1,218 @@
+{
+  "hullName": "Sand Hopper",
+  "hullId": "omm_sandhopper",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Sandhopper/omm_sandhopper.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 112,
+  "width": 64,
+  "center": [32, 53],
+  "collisionRadius": 94,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73,
+  "viewOffset": 0,
+  "builtInMods": [
+    "omm_mainframelink",
+    "omm_wing_range_increase",
+    "do_not_back_off"
+  ],
+  "builtInWings": [
+    "omm_compositepod_wing",
+    "omm_compositepod_wing",
+    "omm_missilepod_wing",
+    "omm_missilepod_wing"
+  ],
+  "builtInWeapons": {
+    "AIHelp": "omm_chafflauncher",
+    "MODULAR": "omm_compositepoddeco",
+    "MODULARPD": "omm_missilepoddeco",
+    "Platform": "FreitagCorporation_Defense_Station_deco",
+    "cover": "omm_sandhopper_cover",
+    "leftarm": "omm_sandhopper_left_front_leg",
+    "leftleg": "omm_sandhopper_left_hind_leg",
+    "leftwing": "omm_sandhopper_left_wing",
+    "rightarm": "omm_sandhopper_right_front_leg",
+    "rightleg": "omm_sandhopper_right_hind_leg",
+    "rightwing": "omm_sandhopper_right_wing",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "leftarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-7.5, 24]
+    },
+    {
+      "id": "rightarm",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 12,
+      "angle": -180,
+      "locations": [-7.5, -24]
+    },
+    {
+      "id": "leftleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -167.5,
+      "locations": [-33.5, 20.5]
+    },
+    {
+      "id": "rightleg",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 167.5,
+      "locations": [-33.5, -20.5]
+    },
+    {
+      "id": "rightwing",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": -176,
+      "locations": [-16.5, -10.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "leftwing",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 15,
+      "angle": 176,
+      "locations": [-16.5, 10.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "MODULAR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-26.5, 130.5]
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "Platform",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, -0]
+    },
+    {
+      "id": "cover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-15, -0],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "MODULARPD",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, 131.5]
+    },
+    {
+      "id": "compositeslot",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21, 102.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "smlmissileslot",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [41, 102.5],
+      "renderOrderMod": 3
+    },
+    {
+      "id": "AIHelp",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 1,
+      "angle": 0,
+      "locations": [52.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9, 23.5,
+        9, -23
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, -12],
+      "length": 39,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-50, 12],
+      "length": 39,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -58, 35,
+    -35, 52.5,
+    28, 48.5,
+    10.5, 17.5,
+    43, 8,
+    43, 25,
+    54, 21.5,
+    54, -21.5,
+    43, -25,
+    43, -8,
+    10.5, -17.5,
+    28, -48.5,
+    -35, -52.5,
+    -58, -35
+  ]
+}

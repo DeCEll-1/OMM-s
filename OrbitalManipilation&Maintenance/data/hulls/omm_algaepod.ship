@@ -1,0 +1,31 @@
+{
+  "hullName": "Algae Pod",
+  "hullId": "omm_algaepod",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Limnopilos/omm_limnopilos_pods.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 128,
+  "width": 91,
+  "center": [45.5, 61],
+  "collisionRadius": 106.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation"
+  ],
+  "builtInWings": [
+    "omm_nanodrone_wing",
+    "omm_nanodrone_wing"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -58.5, 18,
+    -46.5, 35,
+    58.5, 24,
+    58.5, -24,
+    -46.5, -35,
+    -58.5, -18
+  ]
+}

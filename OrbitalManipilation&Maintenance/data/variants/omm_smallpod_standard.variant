@@ -1,0 +1,22 @@
+{
+  "variantId": "omm_smallpod_standard",
+  "hullId": "omm_smallpod",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "smlhybridslot": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

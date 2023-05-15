@@ -1,0 +1,26 @@
+{
+  "variantId": "omm_sesarma_militarized",
+  "hullId": "omm_sesarma",
+  "displayName": "militarized",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "assault_package",
+    "militarized_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "pdslot": "ioncannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

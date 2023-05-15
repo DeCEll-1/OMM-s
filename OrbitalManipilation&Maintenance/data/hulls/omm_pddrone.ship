@@ -1,0 +1,79 @@
+{
+  "hullName": "Point Defense Drone",
+  "hullId": "omm_pddrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_pddrone.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 28,
+  "width": 35,
+  "center": [17.5, 10],
+  "collisionRadius": 20.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "omm_mainframelink",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "Shield": "FreitagCorporation_ShieldEffect_wpn",
+    "cover": "omm_pddronecoverdeco"
+  },
+  "weaponSlots": [
+    {
+      "id": "Shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, -0]
+    },
+    {
+      "id": "cover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9, -0]
+    },
+    {
+      "id": "pdslot",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [2, -0],
+      "renderOrderMod": 3
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -4.5],
+      "length": 6.547019,
+      "width": 11.599402,
+      "angle": -162.5,
+      "contrailSize": 11.599402,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-8.5, 4.5],
+      "length": 6.547019,
+      "width": 11.599402,
+      "angle": 162.5,
+      "contrailSize": 11.599402,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -8, 17.5,
+    17.5, -0,
+    -8, -17.5
+  ]
+}

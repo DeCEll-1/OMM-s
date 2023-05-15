@@ -1,0 +1,79 @@
+{
+  "hullName": "Missile Pod",
+  "hullId": "omm_missilepod",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Fighters/omm_sml_missile_pod.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 33,
+  "width": 42,
+  "center": [21, 14.5],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "shield_always_on",
+    "do_not_back_off",
+    "fluxshunt",
+    "missile_reload",
+    "omm_mainframelink"
+  ],
+  "builtInWeapons": {
+    "cover": "omm_dronecover",
+    "shield": "FreitagCorporation_ShieldEffect_wpn"
+  },
+  "weaponSlots": [
+    {
+      "id": "smlmissileslot",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [6.5, -0]
+    },
+    {
+      "id": "cover",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [2, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "shield",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-6.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -4.5],
+      "length": 12.5,
+      "width": 9,
+      "angle": -170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-13, 4.5],
+      "length": 12.5,
+      "width": 9,
+      "angle": 170,
+      "contrailSize": 9,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -7.5, -20,
+    -7.5, 20,
+    21.5, 0
+  ]
+}

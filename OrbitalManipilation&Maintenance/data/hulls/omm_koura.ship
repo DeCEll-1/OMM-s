@@ -1,0 +1,142 @@
+{
+  "hullName": "Koura",
+  "hullId": "omm_koura",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Koura/omm_kouratopside.png",
+  "style": "FREITAG_CORP_TECH",
+  "height": 113,
+  "width": 151,
+  "center": [75.5, 70.5],
+  "collisionRadius": 79,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ex_phase_coils",
+    "phasefield",
+    "stealth_minefield"
+  ],
+  "builtInWeapons": {
+    "WSDeco": "omm_kouradeco",
+    "WSFrontLeft": "cryoflux",
+    "WSFrontRight": "cryoflux"
+  },
+  "weaponSlots": [
+    {
+      "id": "WSFrontRight",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": 2,
+      "locations": [14, -29]
+    },
+    {
+      "id": "WSFrontLeft",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 2,
+      "angle": -2,
+      "locations": [14, 29]
+    },
+    {
+      "id": "WSDeco",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14, -0],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WSRearLeft",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -2,
+      "locations": [-17, 18],
+      "renderOrderMod": 11
+    },
+    {
+      "id": "WSRearRight",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 2,
+      "locations": [-17, -18],
+      "renderOrderMod": 11
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, -7.5],
+      "length": 37.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-51, 7.5],
+      "length": 37.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-37.5, 41.5],
+      "length": 8.377249,
+      "width": 8.080027,
+      "angle": -152,
+      "contrailSize": 8.080027,
+      "style": "FreitagCorporation_Engine"
+    },
+    {
+      "location": [-37.5, -41.5],
+      "length": 8.377249,
+      "width": 8.080027,
+      "angle": 152,
+      "contrailSize": 8.080027,
+      "style": "FreitagCorporation_Engine"
+    }
+  ],
+  "bounds": [
+    -52, 16.5,
+    -28, 11.5,
+    -31, 20,
+    -11, 25.5,
+    -25.5, 40,
+    -35, 38.5,
+    -39, 45,
+    -23, 57,
+    -43.5, 66,
+    -18, 73.5,
+    0.5, 66,
+    -10.5, 59,
+    -3, 54,
+    8, 56,
+    33.5, 49,
+    25, 5.5,
+    25, -5.5,
+    33.5, -49,
+    8, -56,
+    -3, -54,
+    -10.5, -59,
+    0.5, -66,
+    -18, -73.5,
+    -43.5, -66,
+    -23, -57,
+    -39, -45,
+    -35, -38.5,
+    -25.5, -40,
+    -11, -25.5,
+    -31, -20,
+    -28, -11.5,
+    -52, -16.5
+  ]
+}

@@ -1,0 +1,4 @@
+Location: Somewhere in the sector
+Date: Unknown
+
+Test mission for test all ships on a standard fight.

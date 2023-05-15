@@ -1,0 +1,11 @@
+{
+	"id":"omm_nanite_buff",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.omm_nanite_buffAI",
+	"statsScript":"data.shipsystems.scripts.omm_nanite_buff",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

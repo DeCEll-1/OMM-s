@@ -1,0 +1,24 @@
+{
+  "variantId": "omm_sesarma_tanker",
+  "hullId": "omm_sesarma",
+  "displayName": "Fuel",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "pdslot": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

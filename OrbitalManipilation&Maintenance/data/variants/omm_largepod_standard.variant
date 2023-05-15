@@ -1,0 +1,22 @@
+{
+  "variantId": "omm_largepod_standard",
+  "hullId": "omm_largepod",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "largeslot": "tachyonlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
