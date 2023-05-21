@@ -22,6 +22,7 @@
   ],
   "builtInWeapons": {
     "MODULARPD": "omm_pddronedeco",
+    "algaepods": "omm_limnopilos_pods",
     "leftarm": "omm_limnopilos_left_leg",
     "leftcover": "omm_limnopilos_left_cover",
     "leftjaw": "omm_limnopilos_left_jaw",
@@ -135,12 +136,12 @@
       "renderOrderMod": 1
     },
     {
-      "id": "algaepods",
+      "id": "algaepods",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 0,
-      "angle": -0,
+      "angle": 0,
       "locations": [-11, -0]
     },
     {
