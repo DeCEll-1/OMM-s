@@ -111,7 +111,7 @@ public class omm_largepod implements EveryFrameWeaponEffectPlugin {
         if (!this.timer.intervalElapsed()) {
             return;
         }
-        if (isWeaponSwappedlarge) {
+        if (this.isWeaponSwappedlarge) {
             return;
         }
         if (!isWeaponSwappedlarge) {

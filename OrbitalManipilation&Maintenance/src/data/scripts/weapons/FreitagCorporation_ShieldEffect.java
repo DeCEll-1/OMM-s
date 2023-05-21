@@ -19,7 +19,10 @@ public class FreitagCorporation_ShieldEffect implements EveryFrameWeaponEffectPl
         if (!runOnce) {
             runOnce = true;
             ShipAPI ship = weapon.getShip();
-      ShieldAPI shield = ship.getShield();
+            ShieldAPI shield = ship.getShield();
+            if (shield == null) {
+                return;
+            }
             float radius = ship.getHullSpec().getShieldSpec().getRadius();
             String inner;
             String outer;
@@ -35,11 +38,11 @@ public class FreitagCorporation_ShieldEffect implements EveryFrameWeaponEffectPl
             }
             shield.setRadius(radius, inner, outer);
             shield.setRingRotationRate(shield.getInnerRotationRate());
-           
+
 
         }
 
 
     }
-    
+
 }

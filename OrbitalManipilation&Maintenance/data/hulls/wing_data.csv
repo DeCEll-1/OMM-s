@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,
 FreitagCorporation_ShieldDrone_wing,FreitagCorporation_ShieldDrone_Fighter,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",3,,2,0,BOX,2000,1500,250,1,BOMBER,Shield Drone,5,6000,,,,,,,,,,,,,2
-omm_pddrone_wing,omm_pddrone_standard,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",2,,0,0,DIAMOND,300,0,250,2,INTERCEPTOR,Point Defense,5,2000,,,,,,,,,,,,,
+omm_pddrone_wing,omm_pddrone_standard,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",2,,0,0,DIAMOND,300,0,250,1,INTERCEPTOR,Point Defense,5,2000,,,,,,,,,,,,,
 omm_weaponpod_wing,omm_weaponpod_standard,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",2,,0,0,CLAW,-500,5000,250,1,SUPPORT,Weapon Pod,5,2000,,,,,,,,,,,,,
 omm_synergypod_wing,omm_synergypod_standard,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",2,,0,0,BOX,-500,5000,250,1,SUPPORT,Weapon Pod,5,2000,,,,,,,,,,,,,
 omm_missilepod_wing,omm_missilepod_standard,"stay_in_front_of_ship, no_drop, no_sell, auto_fighter, support2",2,,0,0,V,-500,5000,250,1,SUPPORT,Weapon Pod,5,2000,,,,,,,,,,,,,

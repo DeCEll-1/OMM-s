@@ -18,6 +18,7 @@
     "omm_algaefarm"
   ],
   "builtInWings": [
+    "omm_pddrone_wing",
     "omm_pddrone_wing"
   ],
   "builtInWeapons": {
@@ -151,7 +152,10 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [-14.5, -0]
+      "locations": [
+        -13.5, 0.5,
+        -13.5, 0.5
+      ]
     }
   ],
   "engineSlots": [
