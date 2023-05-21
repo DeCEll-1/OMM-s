@@ -20,6 +20,6 @@
     			#"version": "0.32rc2" # If a specific version is NOT required, comment out this line
     		}
     ],
-	"jars":["jar/FreitagCorporation.jar"],
+	"jars":["jar/FreitagCorporation-master.jar"],
 	"modPlugin":"data.scripts.FreitagCorporation_ModPlugin",
 }

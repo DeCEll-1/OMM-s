@@ -5,3 +5,16 @@ The maximum number of logistic hullmods is increased by one.",Increases maximum 
 Mainframe Uplink,omm_mainframelink,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.FreitagCorporation_Storage,A unique drone control suite enabling the ship's drones to be equipped individually and gunners for direct drone control via virtual reality interface. Through a high volume data uplink to the ship's mainframe combat data can be sent and received by the drones allowing their weapons to benefit from range increases by other hullmods such as integrated targeting unit.,Drone equipment and data interface.,graphics/hullmods/DroneHullmod.png
 no missile reload,omm_no_missile_reload,,,,,,,,,TRUE,0,0,0,0,data.scripts.hullmods.omm_no_missile_reload,,,graphics/hullmods/DroneHullmod.png
 Factory Limiter Override,omm_factory_override,,,Freitag Corporation,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.omm_factory_override,"The crew has access to the codes necessary to override the factory limiter software installed on civilian grade ships produced by the Freitag Corporation, effectively doubling all positive effects of Militarized Subsystems, Assault Package and Escort Package. The fact that they are able to remove such limiters on ships produced by other manufacturers has gained them the allegation of industrial espionage but could not be proven so far.",,graphics/hullmods/limiter_override.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+supplies and fuel once a day,omm_algaefarm,,,Freitag Corporation,,,,,,,0,0,0,0,data.scripts.hullmods.omm_algaefarm,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed potestne rerum maior esse dissensio? Laboro autem non sine causa; Sint ista Graecorum; Bonum incolumis acies: misera caecitas. 
+
+Duo Reges: constructio interrete. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Iam in altera philosophiae parte. Minime vero, inquit ille, consentit. Qui ita affectus, beatum esse numquam probabis; Quod quidem nobis non saepe contingit. Idem adhuc; Iam id ipsum absurdum, maximum malum neglegi. 
+
+Immo alio genere; Minime vero, inquit ille, consentit. Praeclarae mortes sunt imperatoriae; Restinguet citius, si ardentem acceperit. 
+
+Itaque his sapiens semper vacabit. Erat enim res aperta. Quis hoc dicit? Quis negat? 
+
+Sed tamen intellego quid velit. Facillimum id quidem est, inquam. Egone non intellego, quid sit don Graece, Latine voluptas? Disserendi artem nullam habuit. Non potes, nisi retexueris illa. Sed tamen intellego quid velit. At hoc in eo M. 
+
+",lorem,graphics/Test_Image.png

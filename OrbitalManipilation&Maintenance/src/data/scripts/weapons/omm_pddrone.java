@@ -11,6 +11,7 @@ import com.fs.starfarer.api.combat.ShipVariantAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.WeaponGroupAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
+
 import java.awt.Color;
 import java.util.List;
 
@@ -40,13 +41,13 @@ public class omm_pddrone implements EveryFrameWeaponEffectPlugin {
                     weaponAPI.disable(true);
 
                 }
-                
-                        for (int i = 0; i < weapons.size(); i++){
-                                    if (weaponAPI.getSlot().getId().equals("pdslot")) {
-            
-            this.SHIP.removeWeaponFromGroups(weaponAPI);
-        }
-                        }
+
+                for (int i = 0; i < weapons.size(); i++) {
+                    if (weaponAPI.getSlot().getId().equals("pdslot")) {
+
+                        this.SHIP.removeWeaponFromGroups(weaponAPI);
+                    }
+                }
 
             }
 

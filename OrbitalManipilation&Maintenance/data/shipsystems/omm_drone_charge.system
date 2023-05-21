@@ -3,7 +3,7 @@
 	"type":"ENGINE_MOD",
 	"aiType":"CUSTOM",
 	"aiScript":"data.shipsystems.scripts.ai.FreitagCorporation_ManipulatorAI",
-	"statsScript":"src.data.shipsystems.scripts.omm_drone_charge",
+	"statsScript":"data.shipsystems.scripts.omm_drone_charge",
 
 
 	"engineGlowLengthMult":2.5,
