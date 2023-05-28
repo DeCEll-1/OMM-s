@@ -3,7 +3,7 @@
   "specClass": "beam",
   "type": "DECORATIVE",
   "size": "SMALL",
-    	"everyFrameEffect":"data.scripts.weapons.omm_pddrone",
+    	#"everyFrameEffect":"data.scripts.weapons.omm_pddrone",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/ships/Fighters/omm_pddronedeco.png",
