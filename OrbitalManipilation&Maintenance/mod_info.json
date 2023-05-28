@@ -18,7 +18,13 @@
     			"id": "MagicLib",
     			"name": "MagicLib",
     			#"version": "0.32rc2" # If a specific version is NOT required, comment out this line
-    		}
+    		},
+
+	  {
+		  "id": "cmutils",
+		  "name": "Combat Misc Utils",
+		  #"version": "0.32rc2" # If a specific version is NOT required, comment out this line
+	  }
     ],
 	"jars":["jar/FreitagCorporation-master.jar"],
 	"modPlugin":"data.scripts.FreitagCorporation_ModPlugin",

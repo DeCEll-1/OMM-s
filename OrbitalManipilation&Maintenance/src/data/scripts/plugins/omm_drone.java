@@ -61,6 +61,7 @@ public class omm_drone implements EveryFrameCombatPlugin {
                         || weap.getSlot().getId().equals("smlmissileslot")
                         || weap.getSlot().getId().equals("compositeslot")
                         || weap.getSlot().getId().equals("largeslot")
+                        || weap.getSlot().getId().equals("omm_limnopilos_pods")
                         || weap.getSlot().getId().equals("ballisticslot")) {
 
                     weap.getSprite().setSize(0, 0);

@@ -1,19 +1,19 @@
 package data.shipsystems.scripts;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
-import com.fs.starfarer.api.combat.EveryFrameCombatPlugin;
-import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
-import com.fs.starfarer.api.combat.ShipSystemAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
+
 import java.awt.Color;
+import java.util.ArrayList;
 import java.util.List;
+
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lwjgl.util.vector.Vector2f;
+import data.scripts.helper.omm_SpawnDronesWithArray;
 
 public class FreitagCorporation_FluxEater extends BaseShipSystemScript {
 
@@ -22,12 +22,11 @@ public class FreitagCorporation_FluxEater extends BaseShipSystemScript {
 
     protected static float FLUX_MIN_CONVERTED = 0.6f;
     protected static String FLUX_STAT_ID = "FreitagCorporation_FluxEater_Stat";
-
     public static final Color JITTER_COLOR = new Color(200, 200, 25, 75);
     public static final Color JITTER_UNDER_COLOR = new Color(200, 200, 25, 155);
 
-    public static final Color EMP_COLOR = new Color( 255, 251, 0, 45);
-    public static final Color EMP_FRINGE_COLOR = new Color( 185, 255, 0, 30);
+    public static final Color EMP_COLOR = new Color(255, 251, 0, 45);
+    public static final Color EMP_FRINGE_COLOR = new Color(185, 255, 0, 30);
 
     public static float getRange(ShipAPI ship) {
         if (ship == null) {
@@ -87,7 +86,7 @@ public class FreitagCorporation_FluxEater extends BaseShipSystemScript {
                 float time = FLUX_CONVERTED_TIME;
 
                 // if flux dissipation flat is 5200/s added, the time is 1s. If time is 2, divide per 2 the flux dissi
-                fluxRemoved /= time*140;
+                fluxRemoved /= time * 140;
 
                 Global.getCombatEngine().addPlugin(createJitterPlugin(target, time / 2, fluxRemoved));
                 //    target.getMutableStats().getFluxDissipation().modifyFlat(FLUX_STAT_ID, fluxRemoved);

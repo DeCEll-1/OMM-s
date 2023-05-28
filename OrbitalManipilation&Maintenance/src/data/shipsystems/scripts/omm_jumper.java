@@ -1,6 +1,7 @@
-package data.shipsystems.scripts;
+package data.scripts.shipsystems;
 
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
@@ -19,7 +20,7 @@ import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lazywizard.lazylib.combat.entities.SimpleEntity;
 import org.lwjgl.util.vector.Vector2f;
 
-public class FreitagCorporation_Manipulator extends BaseShipSystemScript {
+public class omm_jumper extends BaseShipSystemScript {
 
     private static Map mag = new HashMap();
 
@@ -32,12 +33,14 @@ public class FreitagCorporation_Manipulator extends BaseShipSystemScript {
     }
     protected Object STATUSKEY1 = new Object();
 
-    public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
+    public void apply(MutableShipStatsAPI stats, String id, ShipSystemStatsScript.State state, float effectLevel) {
+
         if (state == ShipSystemStatsScript.State.OUT) {
             stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
         } else {
-            stats.getMaxSpeed().modifyFlat(id, 200f * effectLevel);
-            stats.getAcceleration().modifyFlat(id, 300f * effectLevel);
+            stats.getEntity().setCollisionClass(CollisionClass.FIGHTER);
+            stats.getMaxSpeed().modifyFlat(id, 3500f * effectLevel);
+            stats.getAcceleration().modifyFlat(id, 8000f * effectLevel);
         }
         effectLevel = 1f;
 
@@ -45,14 +48,14 @@ public class FreitagCorporation_Manipulator extends BaseShipSystemScript {
         if (stats.getVariant() != null) {
             mult = (Float) mag.get(stats.getVariant().getHullSize());
         }
-        stats.getShieldDamageTakenMult().modifyMult(id, 1f - .9f * effectLevel);
-        stats.getShieldAbsorptionMult().modifyMult(id, 1f + mult * effectLevel);
-        stats.getShieldArcBonus().modifyFlat(id, 100f * effectLevel);
+        stats.getHullDamageTakenMult().modifyMult(id, 1f - (1f - mult) * effectLevel);
+        stats.getArmorDamageTakenMult().modifyMult(id, 1f - (1f - mult) * effectLevel);
+        stats.getEmpDamageTakenMult().modifyMult(id, 1f - (1f - mult) * effectLevel);
 
         ShipAPI ship = null;
         boolean player = false;
         if (stats.getEntity() instanceof ShipAPI) {
-            ship = (ShipAPI) stats.getEntity();
+
             player = ship == Global.getCombatEngine().getPlayerShip();
         }
         if (ship == null) {
@@ -89,38 +92,36 @@ public class FreitagCorporation_Manipulator extends BaseShipSystemScript {
             SimpleEntity entity = new SimpleEntity(positionRepulse);
             for (ShipAPI target2 : targetsToRepulse) {
                 Vector2f.sub(target2.getLocation(), positionRepulse, dir);
-                CombatUtils.applyForce(target2, dir, 800 * (1 + ship.getSystem().getChargeActiveDur() - ship.getSystem().getCooldownRemaining()));
+                CombatUtils.applyForce(target2, dir, 1 * (1 + ship.getSystem().getChargeActiveDur() - ship.getSystem().getCooldownRemaining()));
             }
-            ship.getVelocity().set(0, 0);
+
             for (int i = 0; i < 5; i++) {
-                Global.getCombatEngine().spawnEmpArcVisual(positionRepulse, null, MathUtils.getRandomPointOnCircumference(positionRepulse, 10), null, 10, Color.cyan, Color.BLUE);
+
             }
 
             CustomRippleDistortion(positionRepulse, new Vector2f(0, 0), 200, 3f, false, 0f, 360f, 0.5f, 0f, 0.5f, 0.5f, 1f, 0f);
-            if (ship.getSystem().getState().equals(ACTIVE))//ship.getSystem().setCooldownRemaining(0.1f);
-            {
-                ship.getSystem().deactivate();
-            }
+
         }
     }
 
     public void unapply(MutableShipStatsAPI stats, String id) {
+
+        stats.getEntity().getVelocity().set(0, 0);
+        stats.getEntity().setCollisionClass(CollisionClass.SHIP);
+        
         stats.getMaxSpeed().unmodify(id);
         stats.getMaxTurnRate().unmodify(id);
         stats.getTurnAcceleration().unmodify(id);
         stats.getAcceleration().unmodify(id);
         stats.getDeceleration().unmodify(id);
-        stats.getShieldAbsorptionMult().unmodify(id);
-        stats.getShieldArcBonus().unmodify(id);
-        stats.getShieldDamageTakenMult().unmodify(id);
+        stats.getHullDamageTakenMult().unmodify(id);
+        stats.getArmorDamageTakenMult().unmodify(id);
+        stats.getEmpDamageTakenMult().unmodify(id);
     }
 
-    public StatusData getStatusData(int index, State state, float effectLevel) {
+    public ShipSystemStatsScript.StatusData getStatusData(int index, ShipSystemStatsScript.State state, float effectLevel) {
         if (index == 0) {
-            return new StatusData("increased engine power", false);
-        }
-        if (index == 1) {
-            return new StatusData("shield absorbs 10x damage", false);
+            return new ShipSystemStatsScript.StatusData("increased engine power", false);
         }
         return null;
     }

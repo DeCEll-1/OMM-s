@@ -12,5 +12,6 @@
     <orderEntry type="library" name="Graphics" level="project" />
     <orderEntry type="library" name="commons-compiler-jdk" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="CMUtils" level="project" />
   </component>
 </module>

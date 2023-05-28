@@ -15,7 +15,8 @@
     "civgrade",
     "omm_mainframelink",
     "omm_wing_range_increase",
-    "omm_algaefarm"
+    "omm_algaefarm",
+    "omm_FighterWeaponReplacerFromShipWeaponSlotID"
   ],
   "builtInWings": [
     "omm_pddrone_wing",

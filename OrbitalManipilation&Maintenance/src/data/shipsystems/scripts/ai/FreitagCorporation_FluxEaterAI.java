@@ -5,13 +5,11 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAIScript;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
-import java.util.ArrayList;
-import java.util.List;
+import data.shipsystems.scripts.FreitagCorporation_FluxEater;
 import org.lazywizard.lazylib.combat.AIUtils;
 import org.lwjgl.util.vector.Vector2f;
-import data.shipsystems.scripts.FreitagCorporation_TemporalShellBuff;
 
-public class FreitagCorporation_TemporalShellBuffAI implements ShipSystemAIScript {
+public class FreitagCorporation_FluxEaterAI implements ShipSystemAIScript {
 
     private CombatEngineAPI engine;
     private ShipAPI ship;
@@ -19,6 +17,9 @@ public class FreitagCorporation_TemporalShellBuffAI implements ShipSystemAIScrip
 
     private float tracker = 0;
     private float trackermax = 0.2f;
+    
+
+
     @Override
     public void advance(float amount, Vector2f missileDangerDir, Vector2f collisionDangerDir, ShipAPI target) {
         if (engine == null) {
@@ -37,13 +38,11 @@ public class FreitagCorporation_TemporalShellBuffAI implements ShipSystemAIScrip
             if (ship.getFluxTracker().isOverloadedOrVenting()) {
                 return;
             }
-            
-            ShipAPI target2 = FreitagCorporation_TemporalShellBuff.getAvailableAllyTarget(ship);
+            ShipAPI target2 = FreitagCorporation_FluxEater.getAvailableAllyTarget(ship);
             if (target2 == null) {
                 return;
             }
             if (!system.isOn()) {
-                
                 if (AIUtils.canUseSystemThisFrame(ship)) {
                     ship.useSystem();
                 }
